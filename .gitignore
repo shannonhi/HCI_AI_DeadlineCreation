@@ -1,6 +1,5 @@
 # Report document — kept local only
 *.docx
-generate_report.py
 
 # Python
 __pycache__/
