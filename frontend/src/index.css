@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600&display=swap');
+@import 'tailwindcss';
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+*::-webkit-scrollbar { width: 3px; }
+*::-webkit-scrollbar-thumb { background: #ccc; border-radius: 4px; }
+
+body {
+  background: #f7f5f0;
+  color: #1a1a1a;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

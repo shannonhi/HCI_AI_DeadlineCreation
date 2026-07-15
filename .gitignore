@@ -1,0 +1,23 @@
+# Report document — kept local only
+*.docx
+generate_report.py
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+
+# Frontend build output & dependencies
+frontend/node_modules/
+frontend/dist/
+
+# Figma/editor artifacts
+frontend/AGENTS.md
+frontend/CLAUDE.md
+frontend/.figma/
+
+# OS
+.DS_Store
+Thumbs.db
