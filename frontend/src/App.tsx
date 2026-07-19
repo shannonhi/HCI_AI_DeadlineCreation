@@ -1,15 +1,14 @@
 import { useState } from 'react'
-import notepadImg from './imports/5b6e7c7b50776702b3ccdd9efd61deb7-removebg-preview.png'
+import notepadImg from './imports/Gemini_Generated_Image_2g9oi02g9oi02g9o-removebg-preview.png'
 import calendarImg from './imports/18235a6cd8acc6a6e5e6f6869f874cde-removebg-preview.png'
 import clockImg from './imports/79ef47f7a05fb451cf3e19fada179e34-removebg-preview.png'
 import postItYellow from './imports/Screenshot_2026-07-12_002630-removebg-preview.png'
 import postItPink from './imports/Screenshot_2026-07-12_002646-removebg-preview.png'
 import UploadPanel from './components/UploadPanel'
 import ResultsPanel from './components/ResultsPanel'
-import type { Deadline } from './lib/extractor'
+import { withUpdatedDate, type Deadline } from './lib/extractor'
 
 const SERIF = "'DM Serif Display', Georgia, serif"
-const SANS = "'Inter', system-ui, sans-serif"
 
 export default function App() {
   const [deadlines, setDeadlines] = useState<Deadline[]>([])
@@ -20,18 +19,16 @@ export default function App() {
     setExtracted(true)
   }
 
+  const handleRename = (id: string, newText: string) => {
+    setDeadlines((prev) => prev.map((d) => (d.id === id ? { ...d, text: newText } : d)))
+  }
+
+  const handleDateChange = (id: string, newDateStr: string) => {
+    setDeadlines((prev) => prev.map((d) => (d.id === id ? withUpdatedDate(d, newDateStr) : d)))
+  }
+
   return (
     <div className="min-h-screen relative overflow-hidden" style={{ background: '#f7f5f0' }}>
-
-      {/* Minimal nav */}
-      <nav className="flex items-center justify-between px-8 py-5">
-        <span className="text-sm font-medium tracking-wide" style={{ fontFamily: SANS, color: '#999' }}>
-          deadline extractor
-        </span>
-        <span className="text-xs" style={{ color: '#bbb', fontFamily: SANS }}>
-          beta
-        </span>
-      </nav>
 
       {/* Floating decorative cards */}
       <FloatingCards />
@@ -61,6 +58,8 @@ export default function App() {
             <ResultsPanel
               deadlines={deadlines}
               onReset={() => { setExtracted(false); setDeadlines([]) }}
+              onRename={handleRename}
+              onDateChange={handleDateChange}
             />
           )}
         </div>
@@ -77,31 +76,31 @@ function FloatingCards() {
         src={postItYellow}
         alt="Yellow post-it note"
         className="absolute hidden lg:block select-none pointer-events-none"
-        style={{ top: '6%', left: '1%', width: '190px', transform: 'rotate(-6deg)', filter: 'drop-shadow(2px 5px 14px rgba(0,0,0,0.12))', zIndex: 2 }}
+        style={{ top: '6%', left: '9%', width: '200px', transform: 'rotate(-6deg)', filter: 'drop-shadow(2px 5px 14px rgba(0,0,0,0.12))', zIndex: 2 }}
       />
       <img
         src={postItPink}
         alt="Pink post-it note"
         className="absolute hidden lg:block select-none pointer-events-none"
-        style={{ top: '22%', left: '10%', width: '190px', transform: 'rotate(4deg)', filter: 'drop-shadow(2px 5px 14px rgba(0,0,0,0.10))', zIndex: 1 }}
+        style={{ top: '22%', left: '19%', width: '200px', transform: 'rotate(4deg)', filter: 'drop-shadow(2px 5px 14px rgba(0,0,0,0.10))', zIndex: 1 }}
       />
       <img
         src={clockImg}
         alt="Alarm clock"
         className="absolute hidden lg:block select-none pointer-events-none"
-        style={{ top: '8%', right: '4%', width: '200px', transform: 'rotate(6deg)', filter: 'drop-shadow(2px 6px 18px rgba(0,0,0,0.12))', zIndex: 1 }}
+        style={{ top: '8%', right: '13%', width: '210px', transform: 'rotate(6deg)', filter: 'drop-shadow(2px 6px 18px rgba(0,0,0,0.12))', zIndex: 1 }}
       />
       <img
         src={notepadImg}
         alt="Notepad with scribbles"
         className="absolute hidden lg:block select-none pointer-events-none"
-        style={{ bottom: '10%', left: '6%', width: '260px', transform: 'rotate(-6deg)', filter: 'drop-shadow(2px 6px 18px rgba(0,0,0,0.12))', zIndex: 1 }}
+        style={{ bottom: '10%', left: '9%', width: '300px', transform: 'rotate(-6deg)', filter: 'drop-shadow(2px 6px 18px rgba(0,0,0,0.12))', zIndex: 1 }}
       />
       <img
         src={calendarImg}
         alt="Desk calendar"
         className="absolute hidden lg:block select-none pointer-events-none"
-        style={{ bottom: '12%', right: '3%', width: '210px', transform: 'rotate(-4deg)', filter: 'drop-shadow(2px 6px 18px rgba(0,0,0,0.10))', zIndex: 1 }}
+        style={{ bottom: '12%', right: '12%', width: '220px', transform: 'rotate(-4deg)', filter: 'drop-shadow(2px 6px 18px rgba(0,0,0,0.10))', zIndex: 1 }}
       />
     </>
   )

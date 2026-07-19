@@ -1,0 +1,2223 @@
+=== 2026-07-19T00:54:33 | test.txt ===
+[
+  {
+    "title": "Project Due",
+    "date": "2026-08-15",
+    "time": "23:59",
+    "description": "Project due date"
+  }
+]
+=== END ===
+
+=== 2026-07-19T00:56:02 | test_vague_deadline.pdf ===
+[]
+=== END ===
+
+=== 2026-07-19T00:57:32 | test_vague_deadline.pdf ===
+[]
+=== END ===
+
+=== 2026-07-19T00:57:45 | test_vague_deadline.pdf ===
+[]
+=== END ===
+
+=== 2026-07-19T00:58:52 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T01:05:54 | pasted text ===
+[
+  {
+    "title": "Assignment 3 Due",
+    "date": "2024-03-05",
+    "time": "23:59",
+    "description": "Due date for Assignment 3"
+  },
+  {
+    "title": "Midterm Quiz Date",
+    "date": "2024-03-04",
+    "time": "23:59",
+    "description": "Date for the midterm quiz"
+  },
+  {
+    "title": "Project Proposal Submission",
+    "date": "2024-03-15",
+    "time": "23:59",
+    "description": "Submission deadline for the project proposal"
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:08:01 | pasted text ===
+[
+  {
+    "title": "Assignment 3 due",
+    "date": "2024-07-25",
+    "time": "23:59",
+    "description": "Due date for Assignment 3"
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:08:22 | pasted text ===
+[
+  {
+    "title": "Assignment 3",
+    "date": "2024-07-25",
+    "time": "23:59",
+    "description": "Due date"
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:11:33 | pasted text ===
+[
+  {
+    "title": "Algorithm Assignment 3",
+    "date": "2024-07-25",
+    "time": "23:59",
+    "description": "Due date for the assignment"
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:13:18 | test-relative-date ===
+[
+  {
+    "title": "Report due date",
+    "date": "2026-07-31",
+    "time": "23:59",
+    "description": "The report is due next Friday"
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:15:27 | pasted text ===
+[
+  {
+    "title": "Algorithm Assignment 3 due date",
+    "date": "2024-07-25",
+    "time": "23:59",
+    "description": "Due date for Algorithm Assignment 3"
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:17:55 | pasted text ===
+[
+  {
+    "title": "Algorithm Assignment 3 due date",
+    "date": "2026-07-25",
+    "time": "23:59",
+    "description": "Due date for Algorithm Assignment 3"
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:18:07 | pasted text ===
+[
+  {
+    "title": "Algorithm Assignment 3",
+    "date": "2026-07-25",
+    "time": "23:59",
+    "description": "due date"
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:18:28 | pasted text ===
+[
+  {
+    "title": "Algorithm Assignment 3",
+    "date": "2026-07-25",
+    "time": "23:59",
+    "description": "Due date for Algorithm Assignment 3"
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:19:04 | pasted text ===
+[
+  {
+    "title": "Algorithm homework 4 due date",
+    "date": "2026-12-12",
+    "time": "23:59",
+    "description": "Submission deadline for Algorithm homework 4"
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:19:26 | pasted text ===
+[
+  {
+    "title": "Machine learning homework",
+    "date": "2026-03-12",
+    "time": "23:59",
+    "description": "Homework due date"
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:22:35 | test-no-year ===
+[
+  {
+    "title": "Submit form",
+    "date": "2027-03-03",
+    "time": "23:59",
+    "description": "Deadline to submit the form",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:23:55 | pasted text ===
+[
+  {
+    "title": "Machine learning homework",
+    "date": "2027-02-11",
+    "time": "23:59",
+    "description": "Due date for machine learning homework.",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:24:11 | pasted text ===
+[
+  {
+    "title": "SDS due",
+    "date": "2027-01-02",
+    "time": "23:59",
+    "description": "Submission deadline for SDS",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:27:43 | pasted text ===
+[
+  {
+    "title": "SDS due",
+    "date": "2026-07-19",
+    "time": "23:59",
+    "description": "Submission deadline for SDS",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:32:04 | pasted text ===
+[
+  {
+    "title": "SDS Iteration 1",
+    "date": "2026-03-11",
+    "time": "23:59",
+    "description": "Due date for SDS Iteration 1",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:32:31 | pasted text ===
+[
+  {
+    "title": "SDS Iteration 1",
+    "date": "2026-03-11",
+    "time": "23:59",
+    "description": "Due date for SDS Iteration 1",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:34:03 | pasted text ===
+[
+  {
+    "title": "Project Proposal Submission",
+    "date": "2026-07-15",
+    "time": "23:59",
+    "description": "Submission deadline for the project proposal",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:37:19 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T01:37:58 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T01:38:30 | pasted text ===
+[
+  {
+    "title": "Figma due",
+    "date": "2026-07-28",
+    "time": "23:59",
+    "description": "Deadline for Figma submission",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:39:19 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T01:39:33 | pasted text ===
+[
+  {
+    "title": "Figma due",
+    "date": "2026-08-14",
+    "time": "23:59",
+    "description": "Deadline for Figma submission",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:40:06 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T01:40:26 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T01:40:52 | pasted text ===
+[
+  {
+    "title": "Figma due",
+    "date": "2026-08-10",
+    "time": "23:59",
+    "description": "Due date for Figma",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:41:56 | pasted text ===
+[
+  {
+    "title": "Schedule due",
+    "date": "2026-07-09",
+    "time": "23:59",
+    "description": "Deadline for the schedule",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:44:31 | pasted text ===
+[
+  {
+    "title": "figma due",
+    "date": "2026-07-28",
+    "time": "23:59",
+    "description": "Deadline for Figma submission (month inferred as July)",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:44:52 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T01:45:12 | pasted text ===
+[
+  {
+    "title": "Project Due",
+    "date": "2026-08-10",
+    "time": "23:59",
+    "description": "Deadline for the project (inferred month/year based on context)",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:45:31 | pasted text ===
+[
+  {
+    "title": "Figma due",
+    "date": "2026-08-10",
+    "time": "23:59",
+    "description": "Deadline for Figma submission (inferred month is August based on context)",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:46:24 | pasted text ===
+[
+  {
+    "title": "Schedule Due",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "Deadline mentioned as the 9th.",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:51:59 | pasted text ===
+[
+  {
+    "title": "SDS Project due date",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "Deadline for the SDS Project.",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:52:23 | pasted text ===
+[
+  {
+    "title": "Machine Learning due",
+    "date": "2026-08-08",
+    "time": "23:59",
+    "description": "Due date for Machine Learning",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:52:45 | pasted text ===
+[
+  {
+    "title": "Machine Learning due",
+    "date": "2026-08-12",
+    "time": "23:59",
+    "description": "Due date for Machine Learning",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:53:13 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T01:53:35 | pasted text ===
+[
+  {
+    "title": "Machine Learning due",
+    "date": "2026-08-11",
+    "time": "23:59",
+    "description": "Due date for Machine Learning",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:53:55 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T01:54:34 | pasted text ===
+[
+  {
+    "title": "Algorithms Homework",
+    "date": "2026-07-12",
+    "time": "23:59",
+    "description": "Homework due on the 12th of the inferred month.",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T01:55:52 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T01:56:09 | pasted text ===
+[
+  {
+    "title": "PDS Project due date",
+    "date": "2026-07-04",
+    "time": "23:59",
+    "description": "Project due date",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:00:31 | test-day-only ===
+[
+  {
+    "title": "Schedule due",
+    "date": "2026-07-09",
+    "time": "23:59",
+    "description": "due the 9th",
+    "year_inferred": true
+  },
+  {
+    "title": "Project due",
+    "date": "2026-07-25",
+    "time": "23:59",
+    "description": "due the 25th",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:02:56 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T02:03:16 | pasted text ===
+[
+  {
+    "title": "SDS project due",
+    "date": "2026-08-04",
+    "time": "23:59",
+    "description": "Due date for the SDS project",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:04:57 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T02:05:14 | pasted text ===
+[
+  {
+    "title": "SDS project due",
+    "date": "2026-07-04",
+    "time": "23:59",
+    "description": "Deadline for the SDS project.",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:05:39 | pasted text ===
+[
+  {
+    "title": "PDS project due",
+    "date": "2026-07-22",
+    "time": "23:59",
+    "description": "Project due date",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:08:07 | pasted text ===
+[
+  {
+    "title": "PDS project due",
+    "date": "2026-07-04",
+    "time": "23:59",
+    "description": "Due date for the PDS project (Month inferred as July)",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:10:28 | pasted text ===
+[
+  {
+    "title": "PDS project due",
+    "date": "2026-07-04",
+    "time": "23:59",
+    "description": "Deadline for the PDS project, inferred date based on context.",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:11:08 | pasted text ===
+[
+  {
+    "title": "Algorithms Homework",
+    "date": "2026-08-12",
+    "time": "23:59",
+    "description": "Homework due date",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:12:02 | pasted text ===
+[
+  {
+    "title": "SDS project due",
+    "date": "2026-07-27",
+    "time": "23:59",
+    "description": "Deadline for the SDS project.",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:22:37 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T02:22:59 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T02:23:14 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T02:23:33 | pasted text ===
+[
+  {
+    "title": "PDS project due",
+    "date": "2026-08-05",
+    "time": "23:59",
+    "description": "Project due on the 5th of the next logical month.",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:24:01 | pasted text ===
+[
+  {
+    "title": "PDS due",
+    "date": "2026-09-25",
+    "time": "23:59",
+    "description": "PDS due",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:24:20 | pasted text ===
+[
+  {
+    "title": "SDS",
+    "date": "2026-09-26",
+    "time": "23:59",
+    "description": "Reference to SDS deadline/event",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:27:33 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T02:27:59 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T02:28:11 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T02:28:26 | pasted text ===
+[
+  {
+    "title": "PDS Project due",
+    "date": "2026-07-09",
+    "time": "23:59",
+    "description": "Deadline for the PDS Project",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:28:58 | pasted text ===
+[
+  {
+    "title": "PDS due",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "PDS submission deadline",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:29:21 | pasted text ===
+[
+  {
+    "title": "PDS Project due",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "Project submission deadline",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:30:20 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T02:30:35 | pasted text ===
+[
+  {
+    "title": "PDS due",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "Deadline for PDS",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:30:55 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T02:31:06 | pasted text ===
+[]
+=== END ===
+
+=== 2026-07-19T02:32:38 | pasted text ===
+[
+  {
+    "title": "PDS due",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "PDS due",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:33:07 | pasted text ===
+[
+  {
+    "title": "PDS Project due",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "Deadline for the PDS Project",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:37:24 | pasted text ===
+[
+  {
+    "title": "PDS project submission",
+    "date": "2026-09-09",
+    "time": "23:59",
+    "description": "Late submissions lose 10%",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T02:37:40 | pasted text ===
+[
+  {
+    "title": "PDS project submission",
+    "date": "2026-07-28",
+    "time": "23:59",
+    "description": "Late submissions lose 10%",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:15:35 | test-mixed ===
+[
+  {
+    "title": "Reply Deadline",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "Reply deadline based on 'the 9th'",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:20:54 | test-examples ===
+[
+  {
+    "title": "PDS",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "PDS deadline",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:23:18 | test-forced-empty ===
+[]
+=== END ===
+
+=== 2026-07-19T14:23:29 | test-forced-empty-no-pattern ===
+[]
+=== END ===
+
+=== 2026-07-19T14:24:39 | pasted text ===
+[
+  {
+    "title": "SDS Project",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "SDS Project deadline",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:24:51 | pasted text ===
+[
+  {
+    "title": "sds",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "sds deadline",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:25:40 | pasted text ===
+[
+  {
+    "title": "PDS project",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "Submission deadline for the PDS project",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:25:54 | pasted text ===
+[
+  {
+    "title": "SDS",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "SDS deadline",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:26:22 | pasted text ===
+[
+  {
+    "title": "PDS project submission",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "Submission deadline for the PDS project",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:26:39 | pasted text ===
+[
+  {
+    "title": "PDS project submission",
+    "date": "2026-07-29",
+    "time": "23:59",
+    "description": "Late submissions lose 10%",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:27:00 | pasted text ===
+[
+  {
+    "title": "PDS",
+    "date": "2026-08-01",
+    "time": "23:59",
+    "description": "PDS deadline",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:27:20 | pasted text ===
+[
+  {
+    "title": "machine learning",
+    "date": "2026-07-21",
+    "time": "23:59",
+    "description": "due 2nd",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:27:37 | pasted text ===
+[
+  {
+    "title": "pds",
+    "date": "2026-08-20",
+    "time": "23:59",
+    "description": "PDS deadline",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:28:35 | pasted text ===
+[
+  {
+    "title": "PDS",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "PDS deadline",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:28:54 | pasted text ===
+[
+  {
+    "title": "PDS Project",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "PDS Project deadline",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:36:14 | test_long_course_outline.pdf ===
+Based on the text provided from pages 15 through 20 of your course material, here is a summary of the module structure, assessment philosophy, and key deadlines:
+
+---
+
+### Module Overview & Philosophy
+
+This module is structured to focus heavily on **theoretical foundations** before moving into applied practice.
+
+*   **Core Expectation:** Students are expected to complete assigned readings *before* each session and participate actively in studio discussions.
+*   **Emphasis on Justification:** The teaching team places a strong emphasis on the ability to **justify design decisions with evidence**, drawing from literature or user research conducted during the term.
+*   **Assessment Philosophy:** Assessment is designed to reward **sustained engagement** rather than last-minute effort. Each deliverable builds upon the previous one, and incorporating feedback is crucial for success in the final assessment.
+
+### Academic Integrity & Collaboration Policy
+
+*   **Original Work:** All submitted work must be your own.
+*   **Collaboration:** Collaboration is encouraged at the level of discussion and critique.
+*   **AI Use:** If generative AI tools are used, their use **must be acknowledged** according to the course AI-use policy.
+*   **Late Submissions:** Late submissions will incur the standard penalty described in the student handbook.
+
+### Key Deliverables and Deadlines
+
+The module involves several sequential deliverables:
+
+| Deliverable | Due Date | Notes |
+| :--- | :--- | :--- |
+| **Reading Response 3** | **9 October 2026** | (As specified in your initial query) |
+| Prototype Checkpoint 2 | 16 October 2026 | |
+| Evaluation Report | 23 October 2026 | |
+| Final Project Submission | 6 November 2026 | |
+| Reflective Essay | 13 November 2026 | |
+
+### Weekly Themes (Context)
+
+The module progresses through the following thematic areas:
+
+*   **Week 15:** Collaborative systems
+*   **Week 16:** Information visualisation
+*   **Week 17:** Design ethics
+*   **Week 18:** Research through design
+*   **Week 19:** Synthesis and integration
+*   **Week 20:** Presentations and wrap-up
+=== END ===
+
+=== 2026-07-19T14:44:22 | test-long-doc [chunk 1/2] ===
+[{"title": "Report", "date": "2026-08-09", "time": "23:59", "description": "x", "year_inferred": false}]
+=== END ===
+
+=== 2026-07-19T14:44:22 | test-long-doc [chunk 2/2] ===
+[{"title": "Report", "date": "2026-08-09", "time": "23:59", "description": "x", "year_inferred": false}]
+=== END ===
+
+=== 2026-07-19T14:44:33 | short-input-test ===
+[]
+=== END ===
+
+=== 2026-07-19T14:45:45 | test-real-table ===
+[
+  {
+    "title": "Reading Response 3",
+    "date": "2026-10-09",
+    "time": "23:59",
+    "description": "(As specified in your initial query)",
+    "year_inferred": false
+  },
+  {
+    "title": "Prototype Checkpoint 2",
+    "date": "2026-10-16",
+    "time": "23:59",
+    "description": "",
+    "year_inferred": false
+  },
+  {
+    "title": "Evaluation Report",
+    "date": "2026-10-23",
+    "time": "23:59",
+    "description": "",
+    "year_inferred": false
+  },
+  {
+    "title": "Final Project Submission",
+    "date": "2026-11-06",
+    "time": "23:59",
+    "description": "",
+    "year_inferred": false
+  },
+  {
+    "title": "Reflective Essay",
+    "date": "2026-11-13",
+    "time": "23:59",
+    "description": "",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:47:09 | test_long_course_outline.pdf [chunk 1/20] ===
+[
+  {
+    "title": "Diagnostic quiz",
+    "date": "2026-08-07",
+    "time": "23:59",
+    "description": "Diagnostic quiz due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:47:15 | test_long_course_outline.pdf [chunk 2/20] ===
+[
+  {
+    "title": "Reading response 1",
+    "date": "2026-08-14",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:47:20 | test_long_course_outline.pdf [chunk 3/20] ===
+[]
+=== END ===
+
+=== 2026-07-19T14:47:25 | test_long_course_outline.pdf [chunk 4/20] ===
+[
+  {
+    "title": "Project proposal",
+    "date": "2026-08-21",
+    "time": "23:59",
+    "description": "Project proposal due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:47:31 | test_long_course_outline.pdf [chunk 5/20] ===
+[
+  {
+    "title": "Ethics form submission",
+    "date": "2026-08-28",
+    "time": "23:59",
+    "description": "Submission of Ethics form via the course portal.",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:47:35 | test_long_course_outline.pdf [chunk 6/20] ===
+[]
+=== END ===
+
+=== 2026-07-19T14:47:43 | test_long_course_outline.pdf [chunk 7/20] ===
+[
+  {
+    "title": "Reading response 2",
+    "date": "2026-09-04",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:47:48 | test_long_course_outline.pdf [chunk 8/20] ===
+[
+  {
+    "title": "Literature review draft",
+    "date": "2026-09-11",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:47:52 | test_long_course_outline.pdf [chunk 9/20] ===
+[]
+=== END ===
+
+=== 2026-07-19T14:47:59 | test_long_course_outline.pdf [chunk 10/20] ===
+[
+  {
+    "title": "Mid-term quiz",
+    "date": "2026-09-18",
+    "time": "23:59",
+    "description": "Mid-term quiz due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:48:07 | test_long_course_outline.pdf [chunk 11/20] ===
+[
+  {
+    "title": "User research plan",
+    "date": "2026-09-25",
+    "time": "23:59",
+    "description": "Due via the course portal.",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:48:14 | test_long_course_outline.pdf [chunk 12/20] ===
+[]
+=== END ===
+
+=== 2026-07-19T14:48:20 | test_long_course_outline.pdf [chunk 13/20] ===
+[
+  {
+    "title": "Prototype checkpoint 1",
+    "date": "2026-10-02",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:48:28 | test_long_course_outline.pdf [chunk 14/20] ===
+[
+  {
+    "title": "Reading response 3",
+    "date": "2026-10-09",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:48:34 | test_long_course_outline.pdf [chunk 15/20] ===
+[]
+=== END ===
+
+=== 2026-07-19T14:48:42 | test_long_course_outline.pdf [chunk 16/20] ===
+[
+  {
+    "title": "Prototype checkpoint 2",
+    "date": "2026-10-16",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:48:50 | test_long_course_outline.pdf [chunk 17/20] ===
+[
+  {
+    "title": "Evaluation report",
+    "date": "2026-10-23",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:48:57 | test_long_course_outline.pdf [chunk 18/20] ===
+[
+  {
+    "title": "Final project submission",
+    "date": "2026-11-06",
+    "time": "23:59",
+    "description": "Final project submission via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:49:03 | test_long_course_outline.pdf [chunk 19/20] ===
+[
+  {
+    "title": "Final project submission",
+    "date": "2026-11-06",
+    "time": "23:59",
+    "description": "Final project submission due via the course portal",
+    "year_inferred": false
+  },
+  {
+    "title": "Reflective essay",
+    "date": "2026-11-13",
+    "time": "23:59",
+    "description": "Reflective essay due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:49:08 | test_long_course_outline.pdf [chunk 20/20] ===
+[
+  {
+    "title": "Reflective essay",
+    "date": "2026-11-13",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:51:04 | test_long_course_outline.pdf [chunk 1/20] ===
+[
+  {
+    "title": "Diagnostic quiz",
+    "date": "2026-08-07",
+    "time": "23:59",
+    "description": "Diagnostic quiz due date for CS3240",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:51:09 | test_long_course_outline.pdf [chunk 2/20] ===
+[
+  {
+    "title": "Reading response 1",
+    "date": "2026-08-14",
+    "time": "23:59",
+    "description": "Reading response 1 is due via the course portal.",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:51:14 | test_long_course_outline.pdf [chunk 3/20] ===
+[]
+=== END ===
+
+=== 2026-07-19T14:51:19 | test_long_course_outline.pdf [chunk 4/20] ===
+[
+  {
+    "title": "Project proposal",
+    "date": "2026-08-21",
+    "time": "23:59",
+    "description": "Project proposal due via the course portal.",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:51:24 | test_long_course_outline.pdf [chunk 5/20] ===
+[
+  {
+    "title": "Ethics form submission",
+    "date": "2026-08-28",
+    "time": "23:59",
+    "description": "Ethics form submission due via the course portal.",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:51:28 | test_long_course_outline.pdf [chunk 6/20] ===
+[]
+=== END ===
+
+=== 2026-07-19T14:51:36 | test_long_course_outline.pdf [chunk 7/20] ===
+[
+  {
+    "title": "Reading response 2",
+    "date": "2026-09-04",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:51:41 | test_long_course_outline.pdf [chunk 8/20] ===
+[
+  {
+    "title": "Literature review draft",
+    "date": "2026-09-11",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:51:49 | test_long_course_outline.pdf [chunk 9/20] ===
+[]
+=== END ===
+
+=== 2026-07-19T14:51:57 | test_long_course_outline.pdf [chunk 10/20] ===
+[
+  {
+    "title": "Mid-term quiz",
+    "date": "2026-09-18",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:52:05 | test_long_course_outline.pdf [chunk 11/20] ===
+[
+  {
+    "title": "User research plan",
+    "date": "2026-09-25",
+    "time": "23:59",
+    "description": "Due via the course portal.",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:52:12 | test_long_course_outline.pdf [chunk 12/20] ===
+[]
+=== END ===
+
+=== 2026-07-19T14:52:18 | test_long_course_outline.pdf [chunk 13/20] ===
+[
+  {
+    "title": "Prototype checkpoint 1",
+    "date": "2026-10-02",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:52:26 | test_long_course_outline.pdf [chunk 14/20] ===
+[
+  {
+    "title": "Reading response 3",
+    "date": "2026-10-09",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:52:33 | test_long_course_outline.pdf [chunk 15/20] ===
+[]
+=== END ===
+
+=== 2026-07-19T14:52:41 | test_long_course_outline.pdf [chunk 16/20] ===
+[
+  {
+    "title": "Prototype checkpoint 2",
+    "date": "2026-10-16",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:52:49 | test_long_course_outline.pdf [chunk 17/20] ===
+[
+  {
+    "title": "Evaluation report",
+    "date": "2026-10-23",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:52:57 | test_long_course_outline.pdf [chunk 18/20] ===
+[
+  {
+    "title": "Final project submission",
+    "date": "2026-11-06",
+    "time": "23:59",
+    "description": "Final project submission via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:53:02 | test_long_course_outline.pdf [chunk 19/20] ===
+[
+  {
+    "title": "Final project submission",
+    "date": "2026-11-06",
+    "time": "23:59",
+    "description": "Final project submission due via the course portal",
+    "year_inferred": false
+  },
+  {
+    "title": "Reflective essay",
+    "date": "2026-11-13",
+    "time": "23:59",
+    "description": "Reflective essay due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:53:08 | test_long_course_outline.pdf [chunk 20/20] ===
+[
+  {
+    "title": "Reflective essay",
+    "date": "2026-11-13",
+    "time": "23:59",
+    "description": "Due via the course portal.",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:56:11 | test_long_course_outline.pdf [chunk 1/20] ===
+[
+  {
+    "title": "Diagnostic quiz",
+    "date": "2026-08-07",
+    "time": "23:59",
+    "description": "Diagnostic quiz due date for CS3240",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:56:16 | test_long_course_outline.pdf [chunk 2/20] ===
+[
+  {
+    "title": "Reading response 1",
+    "date": "2026-08-14",
+    "time": "23:59",
+    "description": "Reading response 1 is due via the course portal.",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:56:21 | test_long_course_outline.pdf [chunk 3/20] ===
+[]
+=== END ===
+
+=== 2026-07-19T14:56:26 | test_long_course_outline.pdf [chunk 4/20] ===
+[
+  {
+    "title": "Project proposal",
+    "date": "2026-08-21",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:56:32 | test_long_course_outline.pdf [chunk 5/20] ===
+[
+  {
+    "title": "Ethics form submission",
+    "date": "2026-08-28",
+    "time": "23:59",
+    "description": "Ethics form submission is due via the course portal.",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:56:37 | test_long_course_outline.pdf [chunk 6/20] ===
+[]
+=== END ===
+
+=== 2026-07-19T14:56:45 | test_long_course_outline.pdf [chunk 7/20] ===
+[
+  {
+    "title": "Reading response 2",
+    "date": "2026-09-04",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:56:51 | test_long_course_outline.pdf [chunk 8/20] ===
+[
+  {
+    "title": "Literature review draft",
+    "date": "2026-09-11",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:56:58 | test_long_course_outline.pdf [chunk 9/20] ===
+[]
+=== END ===
+
+=== 2026-07-19T14:57:06 | test_long_course_outline.pdf [chunk 10/20] ===
+[
+  {
+    "title": "Mid-term quiz",
+    "date": "2026-09-18",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:57:15 | test_long_course_outline.pdf [chunk 11/20] ===
+[
+  {
+    "title": "User research plan",
+    "date": "2026-09-25",
+    "time": "23:59",
+    "description": "Due via the course portal.",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:57:23 | test_long_course_outline.pdf [chunk 12/20] ===
+[]
+=== END ===
+
+=== 2026-07-19T14:57:28 | test_long_course_outline.pdf [chunk 13/20] ===
+[
+  {
+    "title": "Prototype checkpoint 1",
+    "date": "2026-10-02",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:57:37 | test_long_course_outline.pdf [chunk 14/20] ===
+[
+  {
+    "title": "Reading response 3",
+    "date": "2026-10-09",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:57:44 | test_long_course_outline.pdf [chunk 15/20] ===
+[]
+=== END ===
+
+=== 2026-07-19T14:57:53 | test_long_course_outline.pdf [chunk 16/20] ===
+[
+  {
+    "title": "Prototype checkpoint 2",
+    "date": "2026-10-16",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:58:01 | test_long_course_outline.pdf [chunk 17/20] ===
+[
+  {
+    "title": "Evaluation report",
+    "date": "2026-10-23",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:58:09 | test_long_course_outline.pdf [chunk 18/20] ===
+[
+  {
+    "title": "Final project submission",
+    "date": "2026-11-06",
+    "time": "23:59",
+    "description": "Final project submission via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:58:16 | test_long_course_outline.pdf [chunk 19/20] ===
+[
+  {
+    "title": "Final project submission",
+    "date": "2026-11-06",
+    "time": "23:59",
+    "description": "Submission due via the course portal",
+    "year_inferred": false
+  },
+  {
+    "title": "Reflective essay",
+    "date": "2026-11-13",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T14:58:21 | test_long_course_outline.pdf [chunk 20/20] ===
+[
+  {
+    "title": "Reflective essay",
+    "date": "2026-11-13",
+    "time": "23:59",
+    "description": "Due via the course portal",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:03:00 | pasted text ===
+[
+  {
+    "title": "Assignment",
+    "date": "2026-07-08",
+    "time": "23:59",
+    "description": "Assignment due date",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:03:27 | pasted text ===
+[
+  {
+    "title": "Assignment",
+    "date": "2026-08-07",
+    "time": "23:59",
+    "description": "Assignment due date",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:03:40 | pasted text ===
+[
+  {
+    "title": "Assignment",
+    "date": "2026-08-07",
+    "time": "23:59",
+    "description": "Assignment due",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:03:57 | pasted text ===
+[
+  {
+    "title": "Assignment",
+    "date": "2026-07-08",
+    "time": "23:59",11
+    "description": "Assignment due date",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:04:52 | pasted text ===
+[
+  {
+    "title": "Assignment",
+    "date": "2026-08-25",
+    "time": "23:59",
+    "description": "Assignment due",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:05:34 | pasted text ===
+[
+  {
+    "title": "Assignment",
+    "date": "2026-08-25",
+    "time": "23:59",
+    "description": "Assignment due",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:07:01 | pasted text ===
+[
+  {
+    "title": "Assignment",
+    "date": "2026-07-08",
+    "time": "23:59",
+    "description": "Assignment due",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:07:28 | pasted text ===
+[
+  {
+    "title": "Assignment",
+    "date": "2026-07-08",
+    "time": "23:59",
+    "description": "Assignment due deadline",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:07:45 | pasted text ===
+[
+  {
+    "title": "Assignment",
+    "date": "2026-07-08",
+    "time": "23:59",
+    "description": "Assignment due",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:07:59 | pasted text ===
+[
+  {
+    "title": "Assignment",
+    "date": "2026-08-07",
+    "time": "23:59",
+    "description": "Assignment due deadline",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:14:28 | test-fallback-slash ===
+[]
+=== END ===
+
+=== 2026-07-19T15:17:21 | final-check-1 ===
+[
+  {
+    "title": "Assignment",
+    "date": "2026-08-07",
+    "time": "23:59",
+    "description": "Assignment due date",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:17:26 | final-check-2 ===
+[
+  {
+    "title": "PDS",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "PDS deadline",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:17:33 | final-check-3 ===
+[
+  {
+    "title": "PDS",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "PDS deadline",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:19:04 | pasted text ===
+[
+  {
+    "title": "Assignment",
+    "date": "2026-07-08",
+    "time": "23:59",
+    "description": "Assignment due",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:21:28 | pasted text ===
+[
+  {
+    "title": "Assignment",
+    "date": "2026-07-08",
+    "time": "23:59",
+    "description": "Assignment due",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:23:18 | pasted text ===
+[
+  {
+    "title": "Assignment",
+    "date": "2026-07-08",
+    "time": "23:59",
+    "description": "Assignment due",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:23:33 | pasted text ===
+[
+  {
+    "title": "Assignment",
+    "date": "2026-08-07",
+    "time": "23:59",
+    "description": "Assignment due date",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:23:46 | pasted text ===
+[
+  {
+    "title": "Assignment",
+    "date": "2026-08-07",
+    "time": "23:59",
+    "description": "Assignment due date",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:28:53 | Screenshot 2026-07-19 152833.png ===
+[
+  {
+    "title": "1D Iteration 2",
+    "date": "2026-07-22",
+    "time": "10:00",
+    "description": "Deadline for 1D Iteration 2",
+    "year_inferred": false
+  },
+  {
+    "title": "1D Iteration 3",
+    "date": "2026-08-12",
+    "time": "10:00",
+    "description": "Deadline for 1D Iteration 3",
+    "year_inferred": false
+  },
+  {
+    "title": "Mini Project [Individual]",
+    "date": "2026-07-19",
+    "time": "23:59",
+    "description": "Deadline for Mini Project [Individual]",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:39:29 | regression-1 ===
+[
+  {
+    "title": "Assignment",
+    "date": "2026-07-08",
+    "time": "23:59",
+    "description": "Assignment due date",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:39:43 | fallback-convention-test ===
+[]
+=== END ===
+
+=== 2026-07-19T15:39:56 | reg-2 ===
+[
+  {
+    "title": "PDS",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "PDS deadline",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:40:03 | reg-3 ===
+[
+  {
+    "title": "PDS",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "PDS deadline",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:44:26 | pasted text ===
+[
+  {
+    "title": "Assignment 1",
+    "date": "2026-07-22",
+    "time": "23:59",
+    "description": "Assignment deadline",
+    "year_inferred": true
+  },
+  {
+    "title": "Assignment 2",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "Assignment deadline",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:45:42 | Screenshot 2026-07-19 152833.png ===
+[
+  {
+    "title": "1D Iteration 2",
+    "date": "2026-07-22",
+    "time": "10:00",
+    "description": "Deadline for 1D Iteration 2",
+    "year_inferred": false
+  },
+  {
+    "title": "1D Iteration 3",
+    "date": "2026-08-12",
+    "time": "10:00",
+    "description": "Deadline for 1D Iteration 3",
+    "year_inferred": false
+  },
+  {
+    "title": "Mini Project [Individual]",
+    "date": "2026-07-19",
+    "time": "23:59",
+    "description": "Due date for Mini Project [Individual]",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:56:02 | Screenshot 2026-07-19 154627.png ===
+[
+  {
+    "title": "Mini Project",
+    "date": "2026-07-19",
+    "time": "23:59",
+    "description": "Due date for Mini Project [Individual]",
+    "year_inferred": false
+  },
+  {
+    "title": "1D Iteration 2",
+    "date": "2026-07-22",
+    "time": "23:59",
+    "description": "Deadline for 1D Iteration 2 (based on 'Jul 22 Thisweek')",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T15:57:09 | Screenshot 2026-07-19 155652.png ===
+[
+  {
+    "title": "1D Iteration 2",
+    "date": "2026-07-22",
+    "time": "10:00",
+    "description": "1D Iteration 2 deadline",
+    "year_inferred": false
+  },
+  {
+    "title": "1D Iteration 3",
+    "date": "2026-08-12",
+    "time": "10:00",
+    "description": "1D Iteration 3 deadline",
+    "year_inferred": false
+  },
+  {
+    "title": "Mini Project [Individual]",
+    "date": "2026-07-19",
+    "time": "23:59",
+    "description": "Mini Project [Individual] deadline",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T16:20:37 | pasted text ===
+[
+  {
+    "title": "PDS assignment",
+    "date": "2026-07-27",
+    "time": "23:59",
+    "description": "PDS assignment due",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T16:22:24 | Screenshot 2026-07-19 162205.png ===
+[
+  {
+    "title": "1D Iteration 2",
+    "date": "2026-07-22",
+    "time": "10:00",
+    "description": "Due for 1D Iteration 2",
+    "year_inferred": false
+  },
+  {
+    "title": "1D Iteration 3",
+    "date": "2026-08-12",
+    "time": "10:00",
+    "description": "Due for 1D Iteration 3",
+    "year_inferred": false
+  },
+  {
+    "title": "Mini Project [Individual]",
+    "date": "2026-07-19",
+    "time": "23:59",
+    "description": "Due for Mini Project [Individual]",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T16:24:00 | Screenshot 2026-07-19 162343.png ===
+[
+  {
+    "title": "1D Iteration 2",
+    "date": "2026-07-22",
+    "time": "10:00",
+    "description": "Deadline for 1D Iteration 2",
+    "year_inferred": false
+  },
+  {
+    "title": "1D Iteration 3",
+    "date": "2026-08-12",
+    "time": "10:00",
+    "description": "Deadline for 1D Iteration 3",
+    "year_inferred": false
+  },
+  {
+    "title": "Mini Project [Individual]",
+    "date": "2026-07-19",
+    "time": "23:59",
+    "description": "Deadline for Mini Project [Individual]",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T16:26:06 | Screenshot 2026-07-19 162551.png ===
+[
+  {
+    "title": "1D Iteration 2",
+    "date": "2026-07-22",
+    "time": "10:00",
+    "description": "1D Iteration 2",
+    "year_inferred": false
+  },
+  {
+    "title": "1D Iteration 3",
+    "date": "2026-08-12",
+    "time": "10:00",
+    "description": "1D Iteration 3",
+    "year_inferred": false
+  },
+  {
+    "title": "Mini Project [Individual]",
+    "date": "2026-07-19",
+    "time": "23:59",
+    "description": "Mini Project [Individual]",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T16:38:38 | Screenshot 2026-07-19 163819.png ===
+[
+  {
+    "title": "1D Iteration 2",
+    "date": "2026-07-22",
+    "time": "10:00",
+    "description": "Due for 1D Iteration 2",
+    "year_inferred": false
+  },
+  {
+    "title": "1D Iteration 3",
+    "date": "2026-08-12",
+    "time": "10:00",
+    "description": "Due for 1D Iteration 3",
+    "year_inferred": false
+  },
+  {
+    "title": "Mini Project [Individual]",
+    "date": "2026-07-19",
+    "time": "23:59",
+    "description": "Due for Mini Project [Individual]",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T16:50:32 | pasted text ===
+[
+  {
+    "title": "project proposal",
+    "date": "2026-07-24",
+    "time": "23:59",
+    "description": "Project proposal due",
+    "year_inferred": false
+  },
+  {
+    "title": "peer review completion",
+    "date": "2026-07-31",
+    "time": "23:59",
+    "description": "Peer review of two classmates' proposals must be completed",
+    "year_inferred": false
+  },
+  {
+    "title": "final prototype demo",
+    "date": "2026-08-14",
+    "time": "10:00",
+    "description": "Final prototype demo",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T16:52:49 | 2026-ML-course-information_v1(1).pdf [chunk 1/5] ===
+[]
+=== END ===
+
+=== 2026-07-19T16:52:52 | 2026-ML-course-information_v1(1).pdf [chunk 2/5] ===
+[]
+=== END ===
+
+=== 2026-07-19T16:53:03 | 2026-ML-course-information_v1(1).pdf [chunk 3/5] ===
+[]
+=== END ===
+
+=== 2026-07-19T16:53:12 | 2026-ML-course-information_v1(1).pdf [chunk 4/5] ===
+[
+  {
+    "title": "Mid-term Exam",
+    "date": "2026-06-24",
+    "time": "08:00",
+    "description": "Mid-term exam in Week 6",
+    "year_inferred": false
+  },
+  {
+    "title": "Final Exam",
+    "date": "2026-08-20",
+    "time": "17:00",
+    "description": "Final exam in Week 14",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T16:53:24 | 2026-ML-course-information_v1(1).pdf [chunk 5/5] ===
+[
+  {
+    "title": "Exam/Event",
+    "date": "2026-08-20",
+    "time": "17:00",
+    "description": "Scheduled event time for exam venue details (Thursday)",
+    "year_inferred": false
+  },
+  {
+    "title": "Optional Review 1",
+    "date": "2026-06-03",
+    "time": "08:30",
+    "description": "Optional review of linear algebra (Week 3)",
+    "year_inferred": false
+  },
+  {
+    "title": "Optional Review 2",
+    "date": "2026-07-15",
+    "time": "08:30",
+    "description": "Optional review of probability (Week 9)",
+    "year_inferred": false
+  }
+]
+=== END ===
+
+=== 2026-07-19T17:30:41 | pasted text ===
+[
+  {
+    "title": "PDS project submission",
+    "date": "2026-08-09",
+    "time": "23:59",
+    "description": "PDS project must be submitted",
+    "year_inferred": true
+  }
+]
+=== END ===
+
+=== 2026-07-19T17:40:14 | 6262788137436254679.jpg ===
+[]
+=== END ===
+
+=== 2026-07-19T17:42:37 | 6262788137436254679.jpg ===
+[]
+=== END ===
+
+=== 2026-07-19T17:43:54 | 6262788137436254679.jpg ===
+[]
+=== END ===
+
+=== 2026-07-19T17:51:22 | 6262788137436254679.jpg ===
+[]
+=== END ===
+
+=== 2026-07-19T17:55:41 | pasted text ===
+[
+  {
+    "title": "Assignment",
+    "date": "2026-07-08",
+    "time": "23:59",
+    "description": "Assignment due",
+    "year_inferred": false
+  }
+]
+=== END ===
+

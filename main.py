@@ -8,6 +8,7 @@ from pydantic import BaseModel
 
 from deadline_extractor import extract_deadlines
 from ics_generator import create_ics
+from image_processor import image_to_text, is_text_usable
 from pdf_processor import pdf_to_markdown
 
 app = FastAPI(title="Deadline Extractor API")
@@ -37,7 +38,8 @@ async def extract(
         raise HTTPException(status_code=400, detail="Provide at least one file or text.")
 
     markdown_content = text or ""
-    image_bytes = None
+    source_names = [f.filename for f in (pdf, screenshot) if f] or ["pasted text"]
+    source_name = " + ".join(source_names)
 
     if pdf:
         with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
@@ -50,13 +52,24 @@ async def extract(
 
     if screenshot:
         image_bytes = await screenshot.read()
+        ocr_text = image_to_text(image_bytes)
+        if is_text_usable(ocr_text):
+            section = f"## Screenshot (OCR)\n\n{ocr_text}"
+            markdown_content = f"{markdown_content}\n\n{section}" if markdown_content else section
+        elif not markdown_content:
+            return {"deadlines": [], "unresolved": [], "markdown": "", "unreadable_image": True}
 
     try:
-        deadlines = extract_deadlines(markdown_content, image_bytes)
+        result = extract_deadlines(markdown_content, source_name)
     except Exception as exc:
         raise HTTPException(status_code=500, detail=f"LLM error: {exc}")
 
-    return {"deadlines": deadlines, "markdown": markdown_content}
+    return {
+        "deadlines": result["deadlines"],
+        "unresolved": result["unresolved"],
+        "markdown": markdown_content,
+        "unreadable_image": False,
+    }
 
 
 @app.post("/api/ics")

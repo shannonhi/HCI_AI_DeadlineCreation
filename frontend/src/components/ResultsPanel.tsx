@@ -17,9 +17,11 @@ const FILTERS: { key: Filter; label: string }[] = [
 interface Props {
   deadlines: Deadline[]
   onReset: () => void
+  onRename: (id: string, newText: string) => void
+  onDateChange: (id: string, newDateStr: string) => void
 }
 
-export default function ResultsPanel({ deadlines, onReset }: Props) {
+export default function ResultsPanel({ deadlines, onReset, onRename, onDateChange }: Props) {
   const [filter, setFilter] = useState<Filter>('all')
   const [copied, setCopied] = useState(false)
   const [exporting, setExporting] = useState(false)
@@ -60,28 +62,21 @@ export default function ResultsPanel({ deadlines, onReset }: Props) {
         <span className="text-sm font-semibold" style={{ color: '#1a1a1a', fontFamily: SANS }}>
           {deadlines.length} deadline{deadlines.length !== 1 ? 's' : ''} found
         </span>
-        <div className="flex gap-4">
-          {[
-            { label: copied ? '✓ Copied' : '⎘ Copy', action: handleCopy },
-            { label: '← New input', action: onReset },
-          ].map((b) => (
-            <button
-              key={b.label}
-              onClick={b.action}
-              className="text-xs transition-colors"
-              style={{ color: '#bbb', fontFamily: SANS }}
-              onMouseEnter={(e) => (e.currentTarget.style.color = '#555')}
-              onMouseLeave={(e) => (e.currentTarget.style.color = '#bbb')}
-            >
-              {b.label}
-            </button>
-          ))}
-        </div>
+        <button
+          onClick={handleCopy}
+          title="Copy the deadline list as plain text"
+          className="text-xs transition-colors"
+          style={{ color: '#bbb', fontFamily: SANS }}
+          onMouseEnter={(e) => (e.currentTarget.style.color = '#555')}
+          onMouseLeave={(e) => (e.currentTarget.style.color = '#bbb')}
+        >
+          {copied ? '✓ Copied' : '⎘ Copy as text'}
+        </button>
       </div>
 
       {/* Filters */}
       <div className="flex gap-0 overflow-x-auto px-4 pt-2" style={{ borderBottom: '1px solid #f0ece6' }}>
-        {FILTERS.map((f) => {
+        {FILTERS.filter((f) => f.key === 'all' || (counts[f.key] || 0) > 0).map((f) => {
           const active = filter === f.key
           const count = counts[f.key] || 0
           return (
@@ -97,7 +92,7 @@ export default function ResultsPanel({ deadlines, onReset }: Props) {
                 background: 'transparent',
               }}
             >
-              {f.label}{count > 0 ? ` ${count}` : ''}
+              {f.label} ({count})
             </button>
           )
         })}
@@ -111,7 +106,7 @@ export default function ResultsPanel({ deadlines, onReset }: Props) {
           </p>
         ) : (
           filtered.map((d, i) => (
-            <DeadlineRow key={d.id} deadline={d} index={i} total={filtered.length} />
+            <DeadlineRow key={d.id} deadline={d} index={i} total={filtered.length} onRename={onRename} onDateChange={onDateChange} />
           ))
         )}
       </div>
@@ -121,16 +116,27 @@ export default function ResultsPanel({ deadlines, onReset }: Props) {
         {exportError && (
           <p className="text-xs mb-2" style={{ color: '#dc2626', fontFamily: SANS }}>{exportError}</p>
         )}
-        <button
-          disabled={exporting}
-          onClick={handleExport}
-          className="w-full py-3.5 rounded-xl text-sm font-semibold text-white transition-all duration-150"
-          style={{ background: exporting ? '#999' : '#1a1a1a', fontFamily: SANS, cursor: exporting ? 'not-allowed' : 'pointer' }}
-          onMouseEnter={(e) => { if (!exporting) (e.currentTarget as HTMLButtonElement).style.background = '#333' }}
-          onMouseLeave={(e) => { if (!exporting) (e.currentTarget as HTMLButtonElement).style.background = '#1a1a1a' }}
-        >
-          {exporting ? 'Exporting…' : 'Export as .ics calendar file'}
-        </button>
+        <div className="flex gap-2">
+          <button
+            disabled={exporting}
+            onClick={handleExport}
+            className="flex-1 py-3.5 rounded-xl text-sm font-semibold text-white transition-all duration-150"
+            style={{ background: exporting ? '#999' : '#1a1a1a', fontFamily: SANS, cursor: exporting ? 'not-allowed' : 'pointer' }}
+            onMouseEnter={(e) => { if (!exporting) (e.currentTarget as HTMLButtonElement).style.background = '#333' }}
+            onMouseLeave={(e) => { if (!exporting) (e.currentTarget as HTMLButtonElement).style.background = '#1a1a1a' }}
+          >
+            {exporting ? 'Exporting…' : 'Export as .ics calendar file'}
+          </button>
+          <button
+            onClick={onReset}
+            className="shrink-0 px-4 py-3.5 rounded-xl text-sm font-semibold transition-all duration-150"
+            style={{ background: '#faf8f4', color: '#555', border: '1px solid #e8e3db', fontFamily: SANS }}
+            onMouseEnter={(e) => { (e.currentTarget as HTMLButtonElement).style.background = '#f0ece6' }}
+            onMouseLeave={(e) => { (e.currentTarget as HTMLButtonElement).style.background = '#faf8f4' }}
+          >
+            Upload another
+          </button>
+        </div>
       </div>
     </div>
   )

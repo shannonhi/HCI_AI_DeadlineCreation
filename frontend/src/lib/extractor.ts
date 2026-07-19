@@ -1,5 +1,7 @@
 export type Urgency = 'overdue' | 'today' | 'this-week' | 'upcoming'
 
+export type DateFormatReason = 'forced' | 'inferred' | 'assumed' | 'conflicting' | null
+
 export interface Deadline {
   id: string
   text: string
@@ -7,6 +9,9 @@ export interface Deadline {
   rawDate: string
   urgency: Urgency
   context: string
+  dateEstimated: boolean
+  dateFormatAmbiguous: boolean
+  dateFormatReason: DateFormatReason
 }
 
 interface BackendDeadline {
@@ -14,9 +19,12 @@ interface BackendDeadline {
   date: string   // YYYY-MM-DD
   time: string   // HH:MM
   description: string
+  date_estimated?: boolean
+  date_format_ambiguous?: boolean
+  date_format_reason?: DateFormatReason
 }
 
-function getUrgency(date: Date): Urgency {
+export function getUrgency(date: Date): Urgency {
   const now = new Date()
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate())
   const target = new Date(date.getFullYear(), date.getMonth(), date.getDate())
@@ -37,14 +45,28 @@ function mapBackendDeadline(bd: BackendDeadline, index: number): Deadline {
     rawDate: bd.date,
     urgency: getUrgency(date),
     context: bd.description,
+    dateEstimated: !!bd.date_estimated,
+    dateFormatAmbiguous: !!bd.date_format_ambiguous,
+    dateFormatReason: bd.date_format_reason ?? null,
   }
+}
+
+export interface UnresolvedItem {
+  title: string
+  description: string
+}
+
+export interface ExtractResult {
+  deadlines: Deadline[]
+  unresolved: UnresolvedItem[]
+  unreadableImage: boolean
 }
 
 export async function fetchDeadlines(
   pdf?: File | null,
   screenshot?: File | null,
   text?: string,
-): Promise<Deadline[]> {
+): Promise<ExtractResult> {
   const form = new FormData()
   if (pdf) form.append('pdf', pdf)
   if (screenshot) form.append('screenshot', screenshot)
@@ -55,8 +77,46 @@ export async function fetchDeadlines(
     const err = await res.json().catch(() => ({ detail: res.statusText }))
     throw new Error(err.detail ?? 'Extraction failed')
   }
-  const data: { deadlines: BackendDeadline[] } = await res.json()
-  return data.deadlines.map(mapBackendDeadline)
+  const data: {
+    deadlines: BackendDeadline[]
+    unresolved?: UnresolvedItem[]
+    unreadable_image?: boolean
+  } = await res.json()
+  return {
+    deadlines: data.deadlines.map(mapBackendDeadline).sort((a, b) => a.date.getTime() - b.date.getTime()),
+    unresolved: data.unresolved ?? [],
+    unreadableImage: !!data.unreadable_image,
+  }
+}
+
+export function makeManualDeadline(title: string, dateStr: string): Deadline {
+  const [year, month, day] = dateStr.split('-').map(Number)
+  const date = new Date(year, month - 1, day)
+  return {
+    id: `manual-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+    text: title,
+    date,
+    rawDate: dateStr,
+    urgency: getUrgency(date),
+    context: 'Added manually',
+    dateEstimated: false,
+    dateFormatAmbiguous: false,
+    dateFormatReason: null,
+  }
+}
+
+export function withUpdatedDate(deadline: Deadline, dateStr: string): Deadline {
+  const [year, month, day] = dateStr.split('-').map(Number)
+  const date = new Date(year, month - 1, day)
+  return {
+    ...deadline,
+    date,
+    rawDate: dateStr,
+    urgency: getUrgency(date),
+    dateEstimated: false,
+    dateFormatAmbiguous: false,
+    dateFormatReason: null,
+  }
 }
 
 export async function downloadIcs(deadlines: Deadline[]): Promise<void> {

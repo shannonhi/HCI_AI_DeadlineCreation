@@ -6,3 +6,4 @@ ollama
 icalendar
 python-dateutil
 Pillow
+pytesseract
